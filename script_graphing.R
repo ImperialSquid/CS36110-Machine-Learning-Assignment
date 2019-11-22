@@ -132,3 +132,4 @@ ggplot(employeeAbsentism, aes(x = is.na(Reason_for_absence), y = BodyWeight)) +
   scale_x_discrete(labels = c("No","Yes")) +
   coord_flip() +
   theme_economist()
+
