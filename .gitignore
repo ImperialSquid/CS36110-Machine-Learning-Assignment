@@ -5,9 +5,9 @@
 ~$*.docx
 *.tmp
 *.aux
-*.ps
 *.log
 *.dvi
 *.tex~
 .bbl
 .blg
+.bak

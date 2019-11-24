@@ -1,0 +1,13 @@
+\section{Decision Trees Comparison}
+
+As per the assignment I used WEKA to remove the \textit{Month\_of\_absence}, \textit{Day\_of\_the\_week}, \textit{Season}, \textit{CommuteDistance}, \textit{YearsService}, \textit{WorkLoad}, \textit{Education} and  \textit{Smoker} features before training a new J48 classifier to see how this would affect it's performance. As before we will compare their F1 and ROC metrics to evaluate performance at a glance. 
+
+\begin{tabular}{|r|l|l|}
+\hline 
+J48 & F1 Measure & ROC Score \\ 
+\hline 
+Original & \textbf{0.718} & 0.854 \\ 
+\hline 
+Reduced & 0.700 & \textbf{0.862} \\ 
+\hline 
+\end{tabular} 

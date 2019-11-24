@@ -8,7 +8,7 @@ NaiveBayes is a probabilistic classifier, meaning it uses the given dataset to f
 
 The last classifier I used is a RandomForest classifier as I had encountered it before. A RandomForest is an example of an ensemble learning model, meaning that it is a model made up of smaller models, attempting to negate its/their negatives. A RandomForest is made up of lots of decision trees, the difference being, each is trained on a subset of the data and at each level it picks from a subset of the features, then, when classifying, a majority vote is taken between them. This greatly reduces the over-fitting decision trees are liable to have happen \cite{liaw2002}.
 
-\subsection{1.2}
+\subsection{Comparison Between Classifiers}
 When comparing machine learning models there are many ways to measure and compare them. We will be looking at the F1 scores as well as the ROC area.
 
 A useful way to compare classifiers is to look at their F1 scores, this is the harmonic mean between the precision (the number of true positives divided by all predicted positives, how often the model is correct when it thinks it is) and the recall (the number of true positives divided by actual positives, how many positives the model misses) \cite{sasaki2007}. Due to the nature of the precision and recall there is often a trade-off between them, therefore by considering both we can very effectively evaluate a model's accuracy. 
@@ -32,7 +32,7 @@ RandomForest & \textbf{0.788} & \textbf{0.934} \\
 \end{center}
 
 
-\subsection{1.3}
+\subsection{A Baseline for Comparison}
 A very basic baseline would be a "blanket" assignment of a particular decision class, under this approach we would give a result of, for example, "A" to any data given, in this case resulting in approximately a 25\% accuracy rate, given all the classifiers achieved higher than this we can say they are all at least better than this "blanket" approach, this is a fairly unsurprising result as a blanket baseline is particularly useful in unbalanced datasets however this is not (being an approximately equal split between each 4 decision classes).
 
 Another good baseline would be a random approach, such as that used when comparing ROC scores, given that a 0.5 ROC score is equivalent with a model being no better than a "coin flip" approach and all of the three models discussed beat this by a considerable margin we can say they surpass this baseline too. 
