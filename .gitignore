@@ -8,7 +8,7 @@
 *.log
 *.dvi
 *.tex~
-.bbl
-.blg
-.bak
-.toc
+*.bbl
+*.blg
+*.bak
+*.toc
