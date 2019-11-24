@@ -23,3 +23,5 @@ Next I looked into the actual structure of the trees. The first observation I ma
 My next observation was that the reduced dataset tree was not only less wide but also less deep, it only had seven levels  at it's deepest point and normally only went 3 or 4 deep, whereas the original went 9 deep twice and usually was about 5 levels deep. This means that the reduced tree was much more efficient with its classifying.
 
 I think this is a different classification problem as the original because the trees were built from different datasets in that they had a different selection of features, the results were massively different because J48 is a greedy algorithm and it makes some sense that the features that split the dataset best would be those with the most values, however this made the original actually very inefficient. The difference in problem is plain to see in that the trees had very different depths, leaf counts and parameters at each level after the first.
+
+\textit{Final word count: 1726}

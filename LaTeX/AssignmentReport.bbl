@@ -1,0 +1,46 @@
+\begin{thebibliography}{}
+
+\bibitem[Azur et~al., 2011]{azur2011}
+Azur, M.~J., Stuart, E.~A., Frangakis, C., and Leaf, P.~J. (2011).
+\newblock Multiple imputation by chained equations: what is it and how does it
+  work?
+\newblock {\em International journal of methods in psychiatric research},
+  20(1):40--49.
+
+\bibitem[Bischl and Bossek, 2019]{packfarff}
+Bischl, B. and Bossek, J. (2019).
+\newblock {\em farff: A Faster 'ARFF' File Reader and Writer}.
+\newblock R package version 1.1.
+
+\bibitem[Cheema, 2014]{cheema2014}
+Cheema, J.~R. (2014).
+\newblock Some general guidelines for choosing missing data handling methods in
+  educational research.
+\newblock {\em Journal of Modern Applied Statistical Methods}, 13(2):3.
+
+\bibitem[Liaw et~al., 2002]{liaw2002}
+Liaw, A., Wiener, M., et~al. (2002).
+\newblock Classification and regression by randomforest.
+\newblock {\em R news}, 2(3):18--22.
+
+\bibitem[{R Core Team}, 2019]{langR}
+{R Core Team} (2019).
+\newblock {\em R: A Language and Environment for Statistical Computing}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria.
+
+\bibitem[Sasaki et~al., 2007]{sasaki2007}
+Sasaki, Y. et~al. (2007).
+\newblock The truth of the f-measure.
+\newblock {\em Teach Tutor mater}, 1(5):1--5.
+
+\bibitem[{van Buuren} and Groothuis-Oudshoorn, 2011]{packmice}
+{van Buuren}, S. and Groothuis-Oudshoorn, K. (2011).
+\newblock {mice}: Multivariate imputation by chained equations in r.
+\newblock {\em Journal of Statistical Software}, 45(3):1--67.
+
+\bibitem[Wickham, 2016]{packggplot2}
+Wickham, H. (2016).
+\newblock {\em ggplot2: Elegant Graphics for Data Analysis}.
+\newblock Springer-Verlag New York.
+
+\end{thebibliography}
